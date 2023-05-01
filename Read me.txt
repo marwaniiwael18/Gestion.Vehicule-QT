@@ -1,0 +1,14 @@
+Ce projet est une application de bureau développée en langage C++ avec QT Creator, qui permet de gérer un centre de visite technique pour les véhicules. L'application est conçue pour être utilisée sur un système Windows ou Linux.
+
+Le projet utilise une base de données Oracle pour stocker les informations sur les véhicules, les kilométrage , les marques, les modeles, les numéro de séries. L'interface utilisateur est conviviale et facile à utiliser, avec des fonctionnalités telles que la recherche de données, l'ajout de nouveaux 
+ véhicules,
+
+En outre, le projet comprend un scénario Arduino pour la gestion des véhicules. Une fois que tous les composants sont connectés et que le code Arduino est
+téléversé sur la carte, le système est prêt à être utilisé. Lorsqu'une carte RFID
+est passée devant le lecteur RFID, le code vérifie si la carte est autorisée et
+ouvre la porte si c'est le cas. Le statut de la porte est affiché sur l'afficheur LCD
+et la LED verte s'allume avec un son de buzzer pour indiquer que la porte est
+ouverte. Si la porte est fermée, la LED rouge s'allume pour indiquer que la
+porte est verrouillée.
+
+Le code source sera disponible sur GitHub, ce qui permettra aux autres développeurs de collaborer et de contribuer au projet. Ce projet est idéal pour les programmeurs C++ souhaitant développer leurs compétences en utilisant la bibliothèque QT Creator et la base de données Oracle.
